@@ -1,0 +1,16 @@
+[2026-04-19T22:55:52Z] === ENRICH ITERATION 1 START | repo=snide/wyrm sha=fd41b569 ===
+[2026-04-19T22:55:52Z] [iter=1] PHASE START: enrich repo=snide/wyrm sha=fd41b569 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/fd41b569-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/fd41b56978f009e8c33cb26f384dd0dfaf430a7d.nq.gz
+[2026-04-19T22:56:01Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-19T22:56:03Z] [iter=1] AST store loaded triples=226859 load_secs=2 mem_mb=376 MB
+[2026-04-19T22:56:03Z] [iter=1] Step 2: Finding LSP targets mem_mb=376 MB
+[2026-04-19T22:56:03Z] [iter=1] LSP targets found call_sites=1475 imports=0 extends=0 implements=0 secs=0
+[2026-04-19T22:56:03Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=376 MB
+[2026-04-19T22:56:04Z] [iter=1] Position index built positions=16201 nodes_with_types=18030 secs=1 mem_mb=376 MB
+[2026-04-19T22:56:04Z] [iter=1] Step 3: Starting LSP resolution mem_mb=376 MB already_completed_types=[] already_completed_files=0
+[2026-04-19T22:56:04Z] [iter=1] Resolving target type target_type=call_site count=1475
+[2026-04-19T22:56:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=1 resolved=66 errors=597 current=javascript/highlight.pack.js
+[2026-04-19T22:57:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=4 resolved=114 errors=1047 current=docs_template/public/kss.js
+[2026-04-19T22:57:38Z] [iter=1] Target type resolved target_type=call_site resolved=117 errors=1062 secs=94 mem_mb=376 MB
+[2026-04-19T22:57:41Z] [iter=1] Step 5: Writing final enrichment file triples=17672
+[2026-04-19T22:57:41Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/fd41b56978f009e8c33cb26f384dd0dfaf430a7d.nq.gz size_kb=239
+[2026-04-19T22:57:41Z] [iter=1] PHASE END: enrich elapsed_s=108 elapsed_min=1.8 total_triples=17672
