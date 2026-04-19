@@ -1,0 +1,7 @@
+[2026-04-19T22:47:01Z] === AST ITERATION 1 START | repo=snide/wyrm sha=fd41b569 ===
+[2026-04-19T22:47:01Z] [iter=1] PHASE START: ast repo=snide/wyrm sha=fd41b569
+[2026-04-19T22:47:01Z] [iter=1] Building AST aggregate chunks
+[2026-04-19T22:47:22Z] [iter=1] AST chunks built count=1 triples=226860
+[2026-04-19T22:47:22Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/fd41b56978f009e8c33cb26f384dd0dfaf430a7d/.complete
+[2026-04-19T22:47:22Z] [iter=1] PHASE END: ast elapsed_s=21 elapsed_min=0.3
+[2026-04-19T22:47:22Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
